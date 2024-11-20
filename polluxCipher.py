@@ -147,7 +147,7 @@ def main():
 
         # Testing the functions
         test_string = "CMSC191"
-        print("Starting encoding")  # Print the initial test string
+        print(f"Starting encoding")  # Print the initial test string
         encoded = encode_pollux(test_string)
         print(f"Encoded output: {encoded}")  # Print the encoded result
         print("\n")
